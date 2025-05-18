@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Nueva Generación Carranguera | Música Tradicional Campesina Carranguera</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f4e9;
+        }
+
+        .title-font {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .hero-pattern {
+            background-image: url('https://images.unsplash.com/photo-1511671782772-c97d3e27caaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+        }
+
+        .instrument-icon {
+            transition: all 0.3s ease;
+        }
+
+        .instrument-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .album-cover {
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .album-cover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-shape-divider-bottom-1689953633 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1689953633 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+
+        .custom-shape-divider-bottom-1689953633 .shape-fill {
+            fill: #FFFFFF;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header/Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-guitar text-3xl text-amber-600 mr-3"></i>
+                <h1 class="title-font text-2xl font-bold text-amber-800">La Nueva Generación Carranguera</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#inicio" class="font-medium hover:text-amber-600 transition">Inicio</a>
+                <a href="#nosotros" class="font-medium hover:text-amber-600 transition">Nosotros</a>
+                <a href="#musica" class="font-medium hover:text-amber-600 transition">Redes Sociales</a>
+                <a href="#eventos" class="font-medium hover:text-amber-600 transition">Eventos</a>
+                <a href="#contacto" class="font-medium hover:text-amber-600 transition">Contacto</a>
+            </nav>
+            <button class="md:hidden text-amber-800">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-pattern bg-amber-700 relative py-20 md:py-32 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="title-font text-4xl md:text-6xl font-bold mb-6">La auténtica música carranguera</h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Preservando las tradiciones musicales de la región andina colombiana</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#musica" class="bg-amber-600 hover:bg-amber-500 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">
+                    Escucha nuestra música
+                </a>
+                <a href="#eventos" class="bg-transparent hover:bg-white hover:text-amber-800 text-white font-bold py-3 px-8 border-2 border-white rounded-full transition duration-300 transform hover:scale-105">
+                    Próximos eventos
+                </a>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1689953633">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="title-font text-3xl md:text-4xl font-bold text-amber-800 mb-4">Nuestra Historia</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                         alt="Los Carrangueros del Valle"
+                         class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+                <div class="lg:w-1/2">
+                    <h3 class="title-font text-2xl font-bold text-gray-800 mb-6">Más de 5 años llevando nuestra música por Boyacá</h3>
+                    <p class="text-gray-600 mb-6">Formada en la perla de Boyacá, Duitama. Nuestra agrupación nació con el propósito de preservar y difundir la música carranguera, un género tradicional colombiano que combina elementos campesinos con ritmos alegres y letras que narran las vivencias del campo.</p>
+                    <p class="text-gray-600 mb-8">Integrada por músicos apasionados por nuestras raíces, hemos recorrido festivales nacionales e internacionales, llevando el sonido auténtico de la tiple, la guitarra, la guacharaca y la voz que caracterizan nuestro género.</p>
+                    <p class="text-gray-600 mb-10">Nuestra música es un homenaje a la vida campesina, a la tierra que nos vio nacer y a las tradiciones que nos unen. Con cada acorde, buscamos conectar con el corazón de quienes nos escuchan y recordarles la belleza de nuestras raíces.</p>
+                    <p class="text-gray-600 mb-12">Esperamos extendernos por toda Colombia y después en otros lugares del mundo.</p>
+
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <div class="text-center instrument-icon">
+                            <i class="fas fa-guitar text-4xl text-amber-600 mb-2"></i>
+                            <i class="fas fa-microphone text-4xl text-amber-600 mb-2"></i>
+                            <p class="font-medium">Requinto y Coro 1</p>
+                        </div>
+                        <div class="text-center instrument-icon">
+                            <i class="fas fa-guitar text-4xl text-amber-600 mb-2"></i>
+                            <i class="fas fa-microphone text-4xl text-amber-600 mb-2"></i>
+                            <p class="font-medium">Guitarra y Coro 2</p>
+                        </div>
+                        <div class="text-center instrument-icon">
+                            <i class="fas fa-drum text-4xl text-amber-600 mb-2"></i>
+                            <p class="font-medium">Guacharaca</p>
+                        </div>
+                        <div class="text-center instrument-icon">
+                            <i class="fas fa-microphone text-4xl text-amber-600 mb-2"></i>
+                            <i class="fas fa-guitar text-4xl text-amber-600 mb-2"></i>
+                            <p class="font-medium">Tiple y Voz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="musica" class="py-20 bg-amber-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="title-font text-3xl md:text-4xl font-bold text-amber-800 mb-4">Nuestras Redes Sociales</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Album 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg album-cover">
+                    <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d4b95b876807b35d666b830d4772956c~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=e5a88cee&x-expires=1747674000&x-signature=C%2BHE5NEnscSv1CU4tuQYwaYy8fY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=maliva"
+                         alt="TikTok"
+                         class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="title-font text-xl font-bold text-gray-800 mb-2">TikTok</h3>
+                        <p class="text-gray-600 mb-4">Aquí subimos los videos de presentaciones</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-amber-600">Creado desde el 2024</span>
+                            <a href="https://www.tiktok.com/@la.nueva.generaci16?_t=ZS-8wFSOYLFl7C&_r=1" class="bg-amber-600 hover:bg-amber-500 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+                                Click aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Album 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg album-cover">
+                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_lDxJM6E-idm3SnDrGSZhhFBZ86cYvNwm709qLUMNfuJ88H4QqPg4TZLcXzk54QlooBwg=s160-c-k-c0x00ffffff-no-rj"
+                         alt="YouTube"
+                         class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="title-font text-xl font-bold text-gray-800 mb-2">YouTube</h3>
+                        <p class="text-gray-600 mb-4">Es un canal nuevo, vamos a estar publicando nuevos videos de nuestras experiencias recientes.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-amber-600">Creado desde el 2025</span>
+                            <a href="https://youtube.com/@lanuevageneracioncarranguera01?si=LSOK7v3LBrWrMgug" class="bg-amber-600 hover:bg-amber-500 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+                                Click aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Album 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg album-cover">
+                    <img src="https://scontent.fbog11-1.fna.fbcdn.net/v/t39.30808-1/480484754_122236682102016183_763095353387831412_n.jpg?stp=c200.0.1200.1200a_dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeEW4Bs2fycKt9iDr-EqR9JORpNknWAKGPNGk2SdYAoY81PQIsdjQ5iVhN10EKMp_gVU2edp9FV1YuTKGuxHwl6C&_nc_ohc=ikGXCZAb01MQ7kNvwFC29D9&_nc_oc=Adk6HWtC5Ek17pAQXv2OuXZMrd_SPUVO12DERWnhpKPw0z_mGP641PVkwmMTBS218AM&_nc_zt=24&_nc_ht=scontent.fbog11-1.fna&_nc_gid=pCQ2nDk7Sbc_p9c7RZGOKg&oh=00_AfJ-ZJ0itWXvp_AhEnTZj2IBF6R9E64f2LMnzs23yFdQAQ&oe=682E8EDB"
+                         alt="Facebook"
+                         class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="title-font text-xl font-bold text-gray-800 mb-2">Facebook</h3>
+                        <p class="text-gray-600 mb-4">Es la cuenta más antigua que tenemos y por ende tenemos todos los vídeos de esta agrupación</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-amber-600">Creado desde el 2023</span>
+                            <a href="https://www.facebook.com/profile.php?id=61550485498524&mibextid=rS40aB7S9Ucbxw6v" class="bg-amber-600 hover:bg-amber-500 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+                                Click aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="eventos" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="title-font text-3xl md:text-4xl font-bold text-amber-800 mb-4">Próximos Eventos</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Event 1 -->
+                <div class="flex flex-col md:flex-row mb-10 bg-amber-50 rounded-xl overflow-hidden shadow-lg">
+                    <div class="md:w-2/3 p-6">
+                        <h3 class="title-font text-xl font-bold text-gray-800 mb-2">Por el momento no tenemos eventos.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20 bg-amber-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="title-font text-3xl md:text-4xl font-bold mb-4">Contáctanos</h2>
+                <div class="w-24 h-1 bg-white mx-auto"></div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h3 class="title-font text-2xl font-bold mb-6">¿Quieres que toquemos en tu evento?</h3>
+                    <p class="mb-8">Llena el formulario y nos pondremos en contacto contigo para coordinar todos los detalles de tu evento especial.</p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-phone-alt text-amber-300 text-xl mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-bold">Teléfono</h4>
+                                <p>+573227039918</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-amber-300 text-xl mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-bold">Email</h4>
+                                <a href="malito:lgeneracioncarranguera@gmail.com">
+                                <p>lgeneracioncarranguera@gmail.com</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <h4 class="font-bold mb-4">Síguenos en redes sociales</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/profile.php?id=61550485498524&mibextid=rS40aB7S9Ucbxw6v" class="bg-white text-amber-800 hover:bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://youtube.com/@lanuevageneracioncarranguera01?si=zC0li27Yl81ANjV6" class="bg-white text-amber-800 hover:bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@la.nueva.generaci16?_t=ZS-8wFSOYLFl7C&_r=1" class="bg-white text-amber-800 hover:bg-amber-100 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2">
+                    <p> Contáctanos presionando el siguiente botón:
+                            
+                    </p>
+                        <a href="https://wa.me/+573227039918? text=Hola%2C%20quisiera%20saber%20sobre%20los%20servicios%20de%20la%20agrupaci%C3%B3n." target="_blank" class="whatsapp-button">
+                            <i class="fab fa-whatsapp"></i>
+                          Contáctanos.
+                        </a>
+
+                    <style>
+                      .whatsapp-button {
+                        background-color: #25d366;
+                        color: white;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        display: inline-block;
+                      }
+
+                      .whatsapp-button:hover {
+                        opacity: 0.8;
+                      }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center">
+                        <i class="fas fa-guitar text-3xl text-amber-400 mr-3"></i>
+                        <h2 class="title-font text-2xl font-bold">La Nueva Generación Carranguera</h2>
+                    </div>
+                    <p class="mt-2 text-amber-200">Música campesina carranguera.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://www.facebook.com/profile.php?id=61550485498524&mibextid=rS40aB7S9Ucbxw6v" class="text-amber-300 hover:text-white transition">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@la.nueva.generaci16?_t=ZS-8wFSOYLFl7C&_r=1" class="text-amber-300 hover:text-white transition">
+                        <i class="fab fa-tiktok text-xl"></i>
+                    </a>
+                    <a href="https://youtube.com/@lanuevageneracioncarranguera01?si=zC0li27Yl81ANjV6" class="text-amber-300 hover:text-white transition">
+                        <i class="fab fa-youtube text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-amber-800 mt-8 pt-8 text-center text-amber-200">
+                <p>&copy; 2025 La Nueva Generación Carranguera. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const navLinks = document.querySelector('nav.hidden.md\\:flex');
+
+            mobileMenuButton.addEventListener('click', function() {
+                if (navLinks.style.display === 'flex') {
+                    navLinks.style.display = 'none';
+                } else {
+                    navLinks.style.display = 'flex';
+                    navLinks.classList.add('flex-col', 'absolute', 'top-16', 'left-0', 'w-full', 'bg-white', 'py-4', 'px-4', 'shadow-md');
+                    navLinks.classList.remove('hidden', 'md:flex', 'space-x-8');
+                }
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+
+                        // Close mobile menu if open
+                        if (navLinks.style.display === 'flex') {
+                            navLinks.style.display = 'none';
+                        }
+                    }
+                });
+            });
+
+            // Simple music player functionality
+            const playButton = document.querySelector('.fa-play').parentElement;
+            playButton.addEventListener('click', function() {
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('fa-play')) {
+                    icon.classList.remove('fa-play');
+                    icon.classList.add('fa-pause');
+                } else {
+                    icon.classList.remove('fa-pause');
+                    icon.classList.add('fa-play');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
